@@ -1,0 +1,302 @@
+WOOPLI - THIRD-PARTY NOTICES
+
+WOOPLI is distributed under the licence in LICENSE.txt (English) and LICENSE.de.txt
+(German). WOOPLI contains or is installed together with the third-party components
+listed below. Each component remains under its own licence; nothing in LICENSE.txt
+changes those licences.
+
+================================================================================
+1. FRONTEND COMPONENTS (npm, built into the application)
+================================================================================
+
+@tauri-apps/api 2.11.1 - Apache-2.0 OR MIT. Copyright (c) 2017 - Present Tauri Apps Contributors.
+@tauri-apps/plugin-dialog 2.7.2, @tauri-apps/plugin-global-shortcut 2.3.2,
+@tauri-apps/plugin-log 2.9.1 - MIT OR Apache-2.0.
+  Copyright (c) 2019-2022 The Tauri Programme in the Commons Conservancy.
+react 19.2.8, react-dom 19.2.8, scheduler 0.27.0 - MIT.
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+Vite 8.2.2 (client preload helpers) - MIT.
+  Copyright (c) 2019-present VoidZero Inc. and Vite contributors.
+hls.js 1.7.3 - Apache-2.0. Copyright (c) 2017 Dailymotion (http://www.dailymotion.com).
+  Includes work covered by Apache-2.0: Copyright (c) 2013-2015 Brightcove.
+  Includes code from vtt.js (Apache-2.0, Copyright 2013 vtt.js Contributors) and
+  cea-608-parser (BSD-style, Copyright (c) 2015-2016 DASH Industry Forum).
+  The hls.js bundle also embeds @svta/cml-cmcd 2.4.0, @svta/cml-id3 1.0.6,
+  @svta/cml-structured-field-values 1.1.3 (Apache-2.0, Copyright (c) 2023 Streaming
+  Video Technology Alliance), url-toolkit 2.2.5 (Apache-2.0, Copyright (c) 2016 Tom
+  Jenkinson) and eventemitter3 5.0.4 (MIT, Copyright (c) 2014 Arnout Kazemier).
+  The Apache-2.0 text and the hls.js licence are part of the application assets.
+
+Standard MIT permission notice (applies to the MIT components above and below):
+  Permission is hereby granted, free of charge, to any person obtaining a copy of
+  this software and associated documentation files (the "Software"), to deal in the
+  Software without restriction, including without limitation the rights to use, copy,
+  modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
+  and to permit persons to whom the Software is furnished to do so, subject to the
+  following conditions: The above copyright notice and this permission notice shall be
+  included in all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+  PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+  CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+  OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+================================================================================
+2. FONTS, DATA AND DICTIONARY
+================================================================================
+
+Noto Color Emoji (NotoColorEmoji.ttf, embedded in the application)
+  Version 2.057. Copyright 2022 Google Inc.
+  Licence: SIL Open Font License, Version 1.1 - full text in OFL.txt in the
+  installation folder. Source: https://github.com/googlefonts/noto-emoji
+
+Unicode emoji and CLDR annotation data (emoji names in en, ru, de)
+  Generated from Unicode UTS #51 Emoji 15.1 and unicode-org/cldr-json.
+  Licence: Unicode-3.0 (https://www.unicode.org/license.txt).
+  Copyright (c) Unicode, Inc.
+
+German spelling dictionary de_DE_frami (Hunspell; derived from igerman98)
+  Version 20161207+frami20170109.
+  Copyright (C) 1998-2016 Bjoern Jacke; Franz Michael Baumann.
+  Licence: GNU GPL version 2 OR version 3 (your choice).
+  This dictionary is NOT part of the WOOPLI executable. It is shipped as separate,
+  unmodified data files in the "dictionaries" folder of the installation
+  (de_DE.dic, de_DE.aff), together with COPYING_GPLv2, COPYING_GPLv3,
+  README_de_DE_frami.txt and WOOPLI-SOURCES.md. WOOPLI only reads these files at
+  run time, as a spelling-check fallback; they can be deleted or replaced freely.
+  Upstream source: https://github.com/LibreOffice/dictionaries/tree/master/de
+
+================================================================================
+3. RUST COMPONENTS (statically linked into WOOPLI.exe and woopli-mcp.exe)
+================================================================================
+
+The following 361 crate/version pairs are compiled into or used to build the
+applications for Windows (default features). Each is used under the licence
+shown; where a choice is offered (OR), the permissive alternative is available.
+Copyright notices of each crate are those in its published source package.
+
+Native code carried by these crates:
+- SQLCipher Community 4.14.0 (via libsqlite3-sys 0.38.2) - BSD-3-Clause,
+  Copyright (c) 2008-2020 Zetetic LLC. SQLite core 3.51.3 - public domain.
+- OpenSSL 3.6.3 (via openssl-src 300.6.1+3.6.3) - Apache-2.0.
+- AWS-LC (via aws-lc-sys 0.44.0) - ISC, Apache-2.0, MIT, BSD-3-Clause and
+  related upstream component terms.
+- jpeg-encoder 0.6.1 - (MIT OR Apache-2.0) AND IJG (Independent JPEG Group).
+- Microsoft WebView2 loader (via webview2-com-sys 0.38.2); the WebView2 Runtime
+  itself is a separate Microsoft product under Microsoft's terms.
+- NSIS installer (LZMA module under CPL-1.0 with the NSIS special linking
+  exception; stub and plug-ins under zlib/libpng terms): https://nsis.sourceforge.io/License
+
+Mozilla Public License 2.0 crates (source of the exact versions is available
+unmodified from https://crates.io and the project pages below):
+  cssparser 0.36.0 - https://github.com/servo/rust-cssparser
+  cssparser-macros 0.6.1 - https://github.com/servo/rust-cssparser
+  dtoa-short 0.3.5 - https://github.com/servo/dtoa-short
+  option-ext 0.2.0 - https://github.com/soc/option-ext
+  selectors 0.36.1 - https://github.com/servo/stylo
+  MPL-2.0 text: https://www.mozilla.org/en-US/MPL/2.0/
+
+Crates grouped by declared licence:
+
+[MIT OR Apache-2.0]  (175)
+  anyhow 1.0.104, base64 0.22.1, bitflags 2.13.1, block-buffer 0.10.4, camino 1.2.5,
+  cargo-platform 0.1.9, cc 1.4.4, cfg-if 1.0.4, chrono 0.4.45, cmake 0.1.58, cookie 0.18.2,
+  cpufeatures 0.2.17, crc32fast 1.5.1, crossbeam-channel 0.5.16, crossbeam-deque 0.8.8,
+  crossbeam-epoch 0.9.21, crossbeam-utils 0.8.22, crypto-common 0.1.7, dasp_sample 0.11.0,
+  deranged 0.5.8, digest 0.10.7, dirs 6.0.0, dirs-sys 0.5.0, displaydoc 0.2.7, dtoa 1.0.11,
+  dyn-clone 1.0.20, either 1.18.0, erased-serde 0.4.10, fdeflate 0.3.7, find-msvc-tools 0.1.11,
+  flate2 1.1.9, form_urlencoded 1.2.2, futures-channel 0.3.34, futures-core 0.3.34,
+  futures-sink 0.3.34, futures-task 0.3.34, futures-util 0.3.34, getrandom 0.3.4, getrandom 0.4.3,
+  glob 0.3.4, half 2.7.1, hashbrown 0.12.3, hashbrown 0.17.1, hashlink 0.12.1, heck 0.5.0,
+  html5ever 0.38.0, http 1.5.0, httparse 1.10.1, idna 1.1.0, image 0.25.10, image-webp 0.2.4,
+  ipnet 2.12.1, itertools 0.15.0, itoa 1.0.18, jobserver 0.1.35, jsonptr 0.6.3,
+  jxl-bitstream 1.1.0, jxl-coding 1.0.1, jxl-color 0.11.0, jxl-frame 0.13.3, jxl-grid 0.6.2,
+  jxl-image 0.13.0, jxl-jbr 0.2.1, jxl-modular 0.11.3, jxl-oxide 0.12.6, jxl-oxide-common 1.0.0,
+  jxl-render 0.12.4, jxl-threadpool 1.0.0, jxl-vardct 0.11.1, keyboard-types 0.7.0, libc 0.2.189,
+  lock_api 0.4.14, log 0.4.34, markup5ever 0.38.0, maybe-owned 0.3.4, mime 0.3.17,
+  native-tls 0.2.18, num-conv 0.2.2, num-traits 0.2.19, once_cell 1.21.4, parking_lot 0.12.5,
+  parking_lot_core 0.9.12, pdfium-render 0.9.4, percent-encoding 2.3.2, pkg-config 0.3.34,
+  png 0.17.16, png 0.18.1, powerfmt 0.2.0, ppv-lite86 0.2.21, proc-macro2 1.0.107, quote 1.0.47,
+  rand 0.9.5, rand_chacha 0.9.0, rand_core 0.9.5, rayon 1.12.0, rayon-core 1.13.0, regex 1.13.1,
+  regex-automata 0.4.18, regex-syntax 0.8.11, reqwest 0.13.4, rustc_version 0.4.1,
+  rustls-pki-types 1.15.1, rustls-platform-verifier 0.7.0, scopeguard 1.2.0, semver 1.0.28,
+  serde 1.0.229, serde-untagged 0.1.9, serde_core 1.0.229, serde_derive 1.0.229,
+  serde_derive_internals 0.29.1, serde_json 1.0.151, serde_repr 0.1.21, serde_spanned 1.1.1,
+  serde_with 3.22.0, serde_with_macros 3.22.0, serialize-to-javascript 0.1.2,
+  serialize-to-javascript-impl 0.1.2, servo_arc 0.4.3, sha1 0.10.7, sha2 0.10.9, shlex 2.0.1,
+  smallvec 1.15.2, socket2 0.6.5, softbuffer 0.4.8, stable_deref_trait 1.2.1, string_cache 0.9.0,
+  string_cache_codegen 0.6.1, syn 2.0.119, syn 3.0.4, tendril 0.5.1, thiserror 1.0.69,
+  thiserror 2.0.20, thiserror-impl 1.0.69, thiserror-impl 2.0.20, time 0.3.55, time-core 0.1.9,
+  time-macros 0.2.32, tokio-rustls 0.26.4, toml 0.9.12+spec-1.1.0, toml 1.1.4+spec-1.1.0,
+  toml_datetime 0.7.5+spec-1.1.0, toml_datetime 1.1.1+spec-1.1.0, toml_parser 1.1.3+spec-1.1.0,
+  toml_writer 1.1.2+spec-1.1.0, tungstenite 0.29.0, typeid 1.0.3, typenum 1.20.1,
+  unicode-segmentation 1.13.3, url 2.5.8, utf16string 0.2.0, web_atoms 0.2.6, weezl 0.1.12,
+  windows 0.61.3, windows-collections 0.2.0, windows-core 0.61.2, windows-future 0.2.1,
+  windows-implement 0.60.2, windows-interface 0.59.3, windows-link 0.1.3, windows-link 0.2.1,
+  windows-numerics 0.2.0, windows-registry 0.6.1, windows-result 0.3.4, windows-result 0.4.1,
+  windows-strings 0.4.2, windows-strings 0.5.1, windows-sys 0.59.0, windows-sys 0.60.2,
+  windows-sys 0.61.2, windows-targets 0.52.6, windows-targets 0.53.5, windows-threading 0.1.0,
+  windows-version 0.1.7, windows_x86_64_msvc 0.52.6, windows_x86_64_msvc 0.53.1
+
+[MIT]  (72)
+  bytes 1.12.1, cargo_metadata 0.19.2, cfb 0.7.3, darling 0.23.0, darling_core 0.23.0,
+  darling_macro 0.23.0, data-encoding 2.11.1, derive_more 2.1.1, derive_more-impl 2.1.1,
+  dom_query 0.27.0, embed-resource 3.0.11, fax 0.2.7, fern 0.7.1, fs_extra 1.3.0,
+  generic-array 0.14.7, h2 0.4.19, http-body 1.1.0, http-body-util 0.1.5, hyper 1.11.0,
+  hyper-util 0.1.20, ico 0.5.0, infer 0.19.0, libsqlite3-sys 0.38.2, mio 1.2.2,
+  new_debug_unreachable 1.0.6, openssl-sys 0.9.117, phf 0.13.1, phf_codegen 0.13.1,
+  phf_generator 0.13.1, phf_macros 0.13.1, phf_shared 0.13.1, piston-float 1.0.1, plist 1.10.0,
+  precomputed-hash 0.1.1, ps-hybrid-core 0.1.0, quick-xml 0.41.0, rfd 0.16.0, rusqlite 0.40.2,
+  schannel 0.1.29, schemars 0.8.22, schemars_derive 0.8.22, simd-adler32 0.3.10, slab 0.4.12,
+  strsim 0.11.1, synstructure 0.13.2, tauri-winres 0.3.6, tiff 0.11.3, tokio 1.53.1,
+  tokio-macros 2.7.2, tokio-native-tls 0.3.1, tokio-tungstenite 0.29.0, tokio-util 0.7.19,
+  tower 0.5.3, tower-http 0.6.11, tower-layer 0.3.3, tower-service 0.3.3, tracing 0.1.44,
+  tracing-attributes 0.1.31, tracing-core 0.1.36, try-lock 0.2.5, urlpattern 0.3.0, vecmath 1.0.0,
+  vswhom 0.1.0, vswhom-sys 0.1.3, want 0.3.1, webview2-com 0.38.2, webview2-com-macros 0.8.1,
+  webview2-com-sys 0.38.2, winnow 0.7.15, winnow 1.0.4, winreg 0.55.0, zmij 1.0.23
+
+[Apache-2.0 OR MIT]  (34)
+  atomic-waker 1.1.2, autocfg 1.5.1, bit-set 0.8.0, bit-vec 0.8.0, cargo_toml 0.22.3, ctor 0.8.0,
+  ctor-proc-macro 0.0.7, equivalent 1.0.2, fastrand 2.5.0, global-hotkey 0.8.0, idna_adapter 1.2.2,
+  indexmap 1.9.3, indexmap 2.14.0, muda 0.19.3, pin-project-lite 0.2.17, rustc-hash 2.1.3,
+  tauri 2.11.5, tauri-build 2.6.3, tauri-codegen 2.6.3, tauri-macros 2.6.3, tauri-plugin 2.6.3,
+  tauri-plugin-dialog 2.7.2, tauri-plugin-fs 2.5.1, tauri-plugin-global-shortcut 2.3.2,
+  tauri-plugin-log 2.9.0, tauri-plugin-single-instance 2.4.3, tauri-runtime 2.11.3,
+  tauri-runtime-wry 2.11.4, tauri-utils 2.9.3, utf8_iter 1.0.4, uuid 1.25.0, window-vibrancy 0.6.0,
+  wry 0.55.1, zeroize 1.9.0
+
+[Unicode-3.0]  (18)
+  icu_collections 2.3.0, icu_locale_core 2.3.0, icu_normalizer 2.3.0, icu_normalizer_data 2.3.0,
+  icu_properties 2.3.0, icu_properties_data 2.3.0, icu_provider 2.3.1, litemap 0.8.3,
+  potential_utf 0.1.6, tinystr 0.8.4, writeable 0.6.4, yoke 0.8.3, yoke-derive 0.8.2,
+  zerofrom 0.1.8, zerofrom-derive 0.1.7, zerotrie 0.2.5, zerovec 0.11.8, zerovec-derive 0.11.6
+
+[MIT/Apache-2.0]  (17)
+  bitflags 1.3.2, fallible-iterator 0.3.0, fallible-streaming-iterator 0.1.9, ident_case 1.0.1,
+  json-patch 3.0.1, openssl-src 300.6.1+3.6.3, quick-error 2.0.1, serde_urlencoded 0.7.1,
+  siphasher 1.0.3, unic-char-property 0.9.0, unic-char-range 0.9.0, unic-common 0.9.0,
+  unic-ucd-ident 0.9.0, unic-ucd-version 0.9.0, vcpkg 0.2.15, version_check 0.9.5, winapi 0.3.9
+
+[MPL-2.0]  (5)
+  cssparser 0.36.0, cssparser-macros 0.6.1, dtoa-short 0.3.5, option-ext 0.2.0, selectors 0.36.1
+
+[Unlicense OR MIT]  (5)
+  aho-corasick 1.1.5, byteorder 1.5.0, byteorder-lite 0.1.0, memchr 2.8.3, winapi-util 0.1.11
+
+[Apache-2.0]  (3)
+  cpal 0.17.3, sync_wrapper 1.0.2, tao 0.35.3
+
+[BSD-3-Clause]  (3)
+  alloc-no-stdlib 2.0.4, alloc-stdlib 0.2.4, subtle 2.6.1
+
+[ISC]  (3)
+  libloading 0.7.4, rustls-webpki 0.103.15, untrusted 0.9.0
+
+[MIT OR Apache-2.0 OR Zlib]  (3)
+  raw-window-handle 0.6.2, zune-core 0.5.3, zune-jpeg 0.5.15
+
+[Apache-2.0 OR ISC OR MIT]  (2)
+  hyper-rustls 0.27.9, rustls 0.23.43
+
+[BSD-2-Clause OR Apache-2.0 OR MIT]  (2)
+  zerocopy 0.8.56, zerocopy-derive 0.8.56
+
+[BSD-3-Clause OR Apache-2.0]  (2)
+  moxcms 0.8.1, pxfm 0.1.30
+
+[Unlicense/MIT]  (2)
+  same-file 1.0.6, walkdir 2.5.0
+
+[(Apache-2.0 OR MIT) AND BSD-3-Clause]  (1)
+  encoding_rs 0.8.35
+
+[(MIT OR Apache-2.0) AND IJG]  (1)
+  jpeg-encoder 0.6.1
+
+[(MIT OR Apache-2.0) AND Unicode-3.0]  (1)
+  unicode-ident 1.0.24
+
+[0BSD OR MIT OR Apache-2.0]  (1)
+  adler2 2.0.1
+
+[Apache-2.0 / MIT]  (1)
+  fnv 1.0.7
+
+[Apache-2.0 AND MIT]  (1)
+  dpi 0.1.2
+
+[Apache-2.0 OR BSL-1.0]  (1)
+  ryu 1.0.23
+
+[BSD-3-Clause AND MIT]  (1)
+  brotli 8.0.4
+
+[BSD-3-Clause/MIT]  (1)
+  brotli-decompressor 5.0.3
+
+[CC0-1.0 OR MIT-0 OR Apache-2.0]  (1)
+  dunce 1.0.5
+
+[ISC AND (Apache-2.0 OR ISC)]  (1)
+  aws-lc-rs 1.18.0
+
+[ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0)]  (1)
+  aws-lc-sys 0.44.0
+
+[MIT OR Zlib OR Apache-2.0]  (1)
+  miniz_oxide 0.8.9
+
+[Zlib]  (1)
+  foldhash 0.2.0
+
+[Zlib OR Apache-2.0 OR MIT]  (1)
+  bytemuck 1.25.2
+
+================================================================================
+4. OPTIONAL RUNTIMES AND AI MODELS (full offline package only)
+================================================================================
+
+The following are NOT part of the normal installer or of updates. They are shipped
+only in the full offline package and are used under their own licences.
+
+- whisper.cpp b4938 (v1.9.3) and llama.cpp b11191 - MIT, Copyright (c) The ggml
+  authors. SDL 2.28.5 (zlib licence, Sam Lantinga) is included in the Whisper
+  build; LLVM OpenMP (Apache-2.0 WITH LLVM-exception) in the llama build.
+  https://github.com/ggml-org/whisper.cpp  https://github.com/ggml-org/llama.cpp
+- NVIDIA CUDA runtime redistributables (cudart, cublas, cublasLt, nvblas, nvrtc;
+  CUDA 12.4 for Whisper, CUDA 13.4 for llama), (c) NVIDIA Corporation, distributed
+  under the CUDA Toolkit EULA, Attachment A.
+  https://docs.nvidia.com/cuda/eula/index.html
+- Microsoft Visual C++ 2022 / OpenMP app-local runtime (msvcp140, vcruntime140,
+  vcruntime140_1, vcomp140), (c) Microsoft Corporation, redistributed under the
+  Visual Studio 2022 redistribution terms.
+- PDFium 156.0.8066.0 (pdfium-binaries, chromium/8066) - PDFium: Apache-2.0 with
+  third-party notices; packaging: MIT. The licenses folder of the package is included.
+  https://github.com/bblanchon/pdfium-binaries
+- Whisper large-v3-turbo (Q5_0, ggml conversion) - MIT, Copyright (c) OpenAI and the
+  ggml authors. https://huggingface.co/openai/whisper-large-v3-turbo
+- TranslateGemma 4B (Google Gemma 3 family, GGUF Q4_K_M quantization by mradermacher).
+  Gemma is provided under and subject to the Gemma Terms of Use found at
+  gemma.ai/resources/terms. Use is subject to the Gemma Prohibited Use Policy
+  (https://ai.google.dev/gemma/prohibited_use_policy). This model is a quantized
+  (modified) version of the original weights.
+  https://huggingface.co/google/translategemma-4b-it
+- FFmpeg/ffprobe are not shipped; WOOPLI uses them only if found on the PATH of the user.
+
+================================================================================
+5. EXTERNAL SERVICE ATTRIBUTION
+================================================================================
+
+Weather data: Open-Meteo.com, licensed under CC BY 4.0
+(https://open-meteo.com/en/terms, https://creativecommons.org/licenses/by/4.0/).
+
+================================================================================
+6. LICENCE REFERENCES
+================================================================================
+
+Apache-2.0: https://www.apache.org/licenses/LICENSE-2.0
+SIL OFL 1.1: https://openfontlicense.org/ (text in OFL.txt)
+Unicode-3.0: https://www.unicode.org/license.txt
+MPL-2.0: https://www.mozilla.org/en-US/MPL/2.0/
+GPL-2.0 / GPL-3.0: COPYING_GPLv2 and COPYING_GPLv3 in the "dictionaries" folder

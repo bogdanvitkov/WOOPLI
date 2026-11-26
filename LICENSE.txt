@@ -1,0 +1,24 @@
+WOOPLI Freeware License
+
+Copyright (c) 2026 Bogdan Vitkov. All rights reserved.
+
+1. You may install and use WOOPLI free of charge for personal, educational and business purposes,
+   including use within a company.
+2. You may pass on the complete, unmodified official package free of charge, with this license
+   and THIRD_PARTY_NOTICES.txt intact.
+3. You may not sell, rent or lease WOOPLI or charge for it, and you may not distribute modified copies.
+4. You may not modify, decompile, disassemble or otherwise reverse engineer WOOPLI, except where
+   the law expressly permits it.
+5. You may not extract WOOPLI's resources (images, sounds, animations, scripts) to use them separately.
+6. Third-party components are covered by their own licenses, listed in THIRD_PARTY_NOTICES.txt.
+   Optional online features use your own accounts and keys (for example OpenAI or Google) and are
+   governed by those providers' terms.
+7. WOOPLI is provided "as is", without voluntary guarantees, support or a duty to provide updates.
+   Mandatory statutory rights and remedies remain unaffected.
+8. Liability for intent, gross negligence, injury to life, body or health, and wherever the law does
+   not allow liability to be limited remains unaffected. For other damage caused by slight negligence,
+   liability arises only from breach of an essential obligation and is limited to typical,
+   foreseeable damage.
+9. German law applies.
+
+A German translation is provided in LICENSE.de.txt. All rights not granted here are reserved.
