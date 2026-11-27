@@ -12,7 +12,9 @@ Copyright (c) 2026 Bogdan Vitkov. All rights reserved.
 5. You may not extract WOOPLI's resources (images, sounds, animations, scripts) to use them separately.
 6. Third-party components are covered by their own licenses, listed in THIRD_PARTY_NOTICES.txt.
    Optional online features use your own accounts and keys (for example OpenAI or Google) and are
-   governed by those providers' terms.
+   governed by those providers' terms. The optional translation model (TranslateGemma) is a Gemma
+   model: you may use it only within the use restrictions of the Gemma Terms of Use and the Gemma
+   Prohibited Use Policy (gemma.ai/resources/terms, ai.google.dev/gemma/prohibited_use_policy).
 7. WOOPLI is provided "as is", without voluntary guarantees, support or a duty to provide updates.
    Mandatory statutory rights and remedies remain unaffected.
 8. Liability for intent, gross negligence, injury to life, body or health, and wherever the law does

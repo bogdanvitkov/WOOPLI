@@ -26,6 +26,10 @@ Free (freeware), public beta. Made by Bogdan Vitkov.
   Telegram, WhatsApp or the Windows share window.
 - **Weather, clock, calendar** — with Google Calendar sync if you connect your account.
 
+> **Hotkeys:** F13–F16 are not on most keyboards. Open **Settings → Hotkeys** and give each action the keys you
+> like (up to three combinations per action), or map a spare key or mouse button to F13–F16 in your keyboard or
+> mouse software.
+
 ## What you need
 
 - Windows 10 or 11, 64-bit.

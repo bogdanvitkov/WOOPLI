@@ -254,11 +254,13 @@ Crates grouped by declared licence:
   bytemuck 1.25.2
 
 ================================================================================
-4. OPTIONAL RUNTIMES AND AI MODELS (full offline package only)
+4. OPTIONAL RUNTIMES AND AI MODELS (downloaded after installation)
 ================================================================================
 
-The following are NOT part of the normal installer or of updates. They are shipped
-only in the full offline package and are used under their own licences.
+The following are NOT part of the installer or of updates. WOOPLI downloads them
+after installation, only if you ask for them (Settings -> Components): the models
+straight from their publishers on Hugging Face, the runtimes from WOOPLI's GitHub
+releases. They are used under their own licences.
 
 - whisper.cpp b4938 (v1.9.3) and llama.cpp b11191 - MIT, Copyright (c) The ggml
   authors. SDL 2.28.5 (zlib licence, Sam Lantinga) is included in the Whisper

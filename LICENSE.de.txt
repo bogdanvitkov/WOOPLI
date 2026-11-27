@@ -14,7 +14,10 @@ Copyright (c) 2026 Bogdan Vitkov. Alle Rechte vorbehalten.
    um sie gesondert zu verwenden.
 6. Für Drittkomponenten gelten deren eigene Lizenzen, aufgeführt in THIRD_PARTY_NOTICES.txt.
    Optionale Online-Funktionen nutzen Ihre eigenen Konten und Schlüssel (zum Beispiel OpenAI oder
-   Google); dafür gelten die Bedingungen dieser Anbieter.
+   Google); dafür gelten die Bedingungen dieser Anbieter. Das optionale Übersetzungsmodell
+   (TranslateGemma) ist ein Gemma-Modell: Sie dürfen es nur im Rahmen der Nutzungsbeschränkungen der
+   Gemma Terms of Use und der Gemma Prohibited Use Policy verwenden (gemma.ai/resources/terms,
+   ai.google.dev/gemma/prohibited_use_policy).
 7. WOOPLI wird im vorliegenden Zustand bereitgestellt, ohne freiwillige Garantien, ohne Support und
    ohne Pflicht zu Updates. Zwingende gesetzliche Rechte und Ansprüche bleiben unberührt.
 8. Die Haftung für Vorsatz, grobe Fahrlässigkeit, Verletzungen von Leben, Körper oder Gesundheit
